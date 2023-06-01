@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: rgba(0, 3, 23, 0.936);
+}
+h1, h2, h4 {
+  color: #7F83FF;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h1:hover, h2:hover {
+  transition: ease-in-out 300ms;
+}
+
+h3 {
+  color: aliceblue;
+  font-size: 2rem;
+}
+
+button {
+  height: 3.3rem;
+  width: 4.5rem;
+  background-color: rgb(0, 81, 255);
+  border-radius: 10px;
+  border: none;
+}
+
+button:hover {
+  transform: scale(1.05);
+  transition: ease-in-out 250ms;
+}
+
+button:active {
+  background-color: rgba(20, 149, 255, 0.954);
+  transform: translateY(5px);
+}
+
+a {
+  text-decoration: none;
+  color: #7F83FF;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 93.5vh;
+
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+#counter {
+  min-width: 5rem;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  background-color: rgba(0, 3, 23, 0.920);
+  bottom: 0;
+}
