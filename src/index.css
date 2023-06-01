@@ -6,9 +6,11 @@
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
 }
-body{
-    background-color: rgba(0, 3, 23, 0.936);
+
+body {
+  background-color: rgba(0, 3, 23, 0.936);
 }
+
 h1, h2, h4 {
   color: #7F83FF;
 }
